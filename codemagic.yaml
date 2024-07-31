@@ -3,8 +3,6 @@ workflows:
     name: Flutter Workflow
     max_build_duration: 60
     environment:
-      vars:
-        # Add your custom environment variables here
       flutter: stable
       xcode: latest
     scripts:
